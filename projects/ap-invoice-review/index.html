@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f3ef" />
+    <meta
+      name="description"
+      content="A self-initiated business analysis case study using a fictional accounts payable workflow and sample invoice data."
+    />
+    <title>AP Invoice Review — Tran Minh Chi</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="../../" aria-label="Tran Minh Chi, home">MC<span>.</span></a>
+      <a class="case-back" href="../../#project">← Back to portfolio</a>
+    </header>
+
+    <main class="case-page" id="main">
+      <section class="case-hero">
+        <p class="eyebrow"><span class="status-dot"></span> Self-initiated BA case study · 2026</p>
+        <h1>Making invoice<br />status easier to <em>see.</em></h1>
+        <p class="case-intro">
+          A practice case study about accounts payable visibility: map a simple invoice process,
+          define what staff need to see, and review a small sample of invoice due dates.
+        </p>
+        <p class="fiction-note">
+          Learning exercise only. The organization, process, suppliers, and invoice records are
+          fictional; the sample is not real company or financial data.
+        </p>
+      </section>
+
+      <section class="case-section" aria-labelledby="question-title">
+        <div class="case-section-heading">
+          <p class="eyebrow">01 / The question</p>
+          <h2 id="question-title">What should the team<br /><em>notice sooner?</em></h2>
+        </div>
+        <div>
+          <p>
+            In this assumed scenario, a small finance team tracks invoices in a shared spreadsheet.
+            It is not always easy to spot which invoices are waiting for approval, which are due
+            soon, and which may already be overdue.
+          </p>
+          <p>
+            The goal is not to build an ERP or prescribe accounting policy. It is to show a clear
+            workflow, a short list of user needs, and a simple way to discuss invoice priority.
+          </p>
+          <div class="case-facts">
+            <div><span>Perspective</span><strong>Junior BA practice</strong></div>
+            <div><span>Scope</span><strong>Invoice visibility & follow-up</strong></div>
+            <div><span>Not included</span><strong>Payments, ERP integration, tax advice</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section process-section" aria-labelledby="process-title">
+        <div class="case-section-heading">
+          <p class="eyebrow">02 / Assumed workflow</p>
+          <h2 id="process-title">A simple path from<br /><em>receipt to record.</em></h2>
+        </div>
+        <div class="process-board">
+          <article class="process-step"><span>01</span><h3>Receive</h3><p>Log the invoice and its key dates.</p></article>
+          <article class="process-step"><span>02</span><h3>Check</h3><p>Review required details and possible duplicates.</p></article>
+          <article class="process-step"><span>03</span><h3>Approve</h3><p>Route the invoice to the responsible approver.</p></article>
+          <article class="process-step"><span>04</span><h3>Schedule</h3><p>Show approved invoices by due date.</p></article>
+          <article class="process-step"><span>05</span><h3>Update</h3><p>Record the payment status and review open items.</p></article>
+        </div>
+        <p class="assumption-note">
+          Assumption to validate in a real project: approval roles, required invoice fields, and
+          follow-up timing depend on the organization’s own policy.
+        </p>
+        <a class="evidence-link" href="process-map.mmd">View process map source <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="case-section" aria-labelledby="findings-title">
+        <div class="case-section-heading">
+          <p class="eyebrow">03 / Sample data review</p>
+          <h2 id="findings-title">Aging as a<br /><em>conversation starter.</em></h2>
+        </div>
+        <div>
+          <p class="snapshot-date">Illustrative snapshot · 31 Oct 2026 · VND</p>
+          <div class="metric-grid">
+            <article class="metric-card"><span>Open invoices</span><strong>10</strong><small>Paid records excluded</small></article>
+            <article class="metric-card"><span>Open amount</span><strong>135.2m</strong><small>Across 10 open records</small></article>
+            <article class="metric-card metric-alert"><span>Past due</span><strong>6 · 95.4m</strong><small>70.6% of open amount</small></article>
+          </div>
+          <div class="aging-list" aria-label="Open invoice aging breakdown">
+            <div><span>Not yet due</span><strong>3 invoices · 21.3m</strong></div>
+            <div><span>Due on snapshot date</span><strong>1 invoice · 18.5m</strong></div>
+            <div><span>1–30 days overdue</span><strong>5 invoices · 91.0m</strong></div>
+            <div><span>31–60 days overdue</span><strong>1 invoice · 4.4m</strong></div>
+            <div><span>Over 60 days overdue</span><strong>0 invoices · 0m</strong></div>
+          </div>
+          <p class="analysis-caveat">
+            The sample suggests overdue items would be useful to review first; it does not prove a
+            real business has this problem or that a dashboard would reduce late payments. A real
+            analysis should validate the source data, approval status, and company rules.
+          </p>
+          <a class="evidence-link" href="sample-invoices.csv">Download the fictional sample data <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="case-section requirements-section" aria-labelledby="requirements-title">
+        <div class="case-section-heading">
+          <p class="eyebrow">04 / User needs</p>
+          <h2 id="requirements-title">Keep the requirements<br /><em>easy to check.</em></h2>
+        </div>
+        <div class="requirement-list">
+          <article><span>BR-01</span><div><h3>Find an invoice quickly</h3><p>As a finance staff member, I want to find an invoice by its reference or supplier so I can check its current status.</p><small>Acceptance: a matching record shows its reference, supplier, amount, due date, and status.</small></div></article>
+          <article><span>BR-02</span><div><h3>See what is waiting</h3><p>As a finance staff member, I want to distinguish invoices awaiting review, approved for payment, and paid.</p><small>Acceptance: each record has one clearly displayed status from the agreed list.</small></div></article>
+          <article><span>BR-03</span><div><h3>Prioritize due dates</h3><p>As a finance staff member, I want to sort open invoices by due date so I can review upcoming and overdue items.</p><small>Acceptance: open records can be ordered by due date; paid records are not counted as open.</small></div></article>
+          <article><span>BR-04</span><div><h3>Understand aging</h3><p>As a team lead, I want a count and total amount for overdue invoices grouped by age.</p><small>Acceptance: the report shows the snapshot date, overdue buckets, invoice counts, and totals.</small></div></article>
+          <article><span>BR-05</span><div><h3>Follow up responsibly</h3><p>As an authorized staff member, I want a reminder list for items needing attention without automatically sending supplier messages.</p><small>Acceptance: a reminder identifies the invoice and owner; timing and recipients are confirmed with the organization first.</small></div></article>
+        </div>
+        <a class="evidence-link" href="requirements.md">View requirements and test scenarios <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="reflection">
+        <p class="eyebrow">05 / What I learned</p>
+        <h2>Start with the decision,<br /><em>not the software.</em></h2>
+        <p>
+          The most important questions are about ownership and definitions: when is an invoice
+          considered open, who confirms its status, and which policy determines follow-up? A useful
+          report depends on answering those questions before choosing a tool.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer case-footer">
+      <a class="wordmark" href="../../" aria-label="Back to portfolio">MC<span>.</span></a>
+      <span>Practice case study · fictional sample data</span>
+      <a href="../../#project">Portfolio ↑</a>
+    </footer>
+  </body>
+</html>

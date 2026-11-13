@@ -1,0 +1,13 @@
+InvoiceID,Supplier,InvoiceDate,DueDate,AmountVND,Status,PaymentDate
+INV-001,Lotus Office Supplies,2026-10-01,2026-10-31,18500000,Approved for payment,
+INV-002,North Star Printing,2026-10-04,2026-10-20,12400000,Pending approval,
+INV-003,Green Field Services,2026-10-10,2026-11-09,8600000,Pending approval,
+INV-004,Blue River Logistics,2026-10-02,2026-10-17,31000000,Approved for payment,
+INV-005,Maple Workspace,2026-10-12,2026-11-11,5200000,Pending approval,
+INV-006,Sunrise Stationery,2026-09-20,2026-10-05,9800000,Paid,2026-10-04
+INV-007,Silver Line Media,2026-09-29,2026-10-14,22000000,Pending approval,
+INV-008,Little Pine Catering,2026-10-15,2026-10-30,14000000,Approved for payment,
+INV-009,West Gate Maintenance,2026-10-18,2026-11-17,7500000,Pending approval,
+INV-010,Amber Paper Co,2026-09-25,2026-10-10,6700000,Paid,2026-10-09
+INV-011,Cloud Nine Supplies,2026-09-10,2026-09-25,4400000,Pending approval,
+INV-012,Red Brick Services,2026-10-08,2026-10-23,11600000,Pending approval,

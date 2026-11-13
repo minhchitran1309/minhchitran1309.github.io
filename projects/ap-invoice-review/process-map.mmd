@@ -1,0 +1,14 @@
+flowchart LR
+    A[Receive invoice] --> B[Log invoice details]
+    B --> C{Required details<br/>complete?}
+    C -- No --> D[Request missing information]
+    D --> B
+    C -- Yes --> E[Check for possible duplicate]
+    E --> F{Needs review<br/>or approval?}
+    F -- Yes --> G[Route to responsible approver]
+    G --> H{Approved?}
+    H -- No --> I[Record hold or rejection reason]
+    H -- Yes --> J[Show approved item by due date]
+    F -- No --> J
+    J --> K[Record payment status]
+    K --> L[Review open and overdue items]
