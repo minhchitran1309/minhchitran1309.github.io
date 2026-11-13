@@ -9,7 +9,7 @@ The home page uses a locally stored portrait at `assets/avatar.jpeg`. Subtle scr
 - Profile, academic background, and areas of focus
 - A clearly labeled, self-initiated accounts payable process and sample-data case study in `projects/ap-invoice-review/`
 - Academic accounts payable application project, described as a student contribution
-- Work experience, certifications, and language skills
+- Work experience (sales, classroom support, and one-to-one tutoring), certifications, and language skills
 - Email and GitHub contact links
 
 The AP case study is a learning exercise based on an explicitly fictional scenario and synthetic invoice dataset. Its process, requirements, figures, and limitations are documented in the project folder; it is not client work or real financial evidence.
