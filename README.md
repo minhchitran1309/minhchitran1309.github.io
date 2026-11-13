@@ -1,13 +1,16 @@
-# Portfolio website
+# Tran Minh Chi — Portfolio
 
-A responsive, single-page portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages.
+A responsive portfolio for Tran Minh Chi, a Management Information Systems student focused on business analysis, ERP, and financial systems. Built with plain HTML, CSS, and JavaScript for GitHub Pages.
 
-## Personalize it
+## Site contents
 
-Replace the square-bracket prompts in `index.html` with your details. Also update the page title, description, email address, GitHub and LinkedIn links, project links, and the `YN` wordmark. Remove any sections you do not need. The design uses English as a starting point and can be translated or made bilingual.
+- Profile, academic background, and core areas of interest
+- Accounts Payable Management System project
+- Work experience, certifications, and language skills
+- Contact links
+
+The page uses CSS motion and scroll-triggered reveals, with support for the operating system's reduced-motion preference. Update the copy and contact details in `index.html`, visual styles in `styles.css`, and interaction behavior in `script.js`.
 
 ## Publish with GitHub Pages
 
-In the repository settings, open **Pages** and choose **Deploy from a branch**, then select `main` and `/ (root)`.
-
-The cloned repository is named `minhchitran109.github.io`, while its owner is `minhchitran1309`. GitHub's user-site convention uses a repository named exactly `<owner>.github.io`; if the owner and repository name are intentional as given, Pages may instead be served as a project site under the repository path. Check the Pages panel for the exact published URL.
+In the repository settings, open **Pages** and choose **Deploy from a branch**, then select `main` and `/ (root)`. GitHub Pages displays the published URL in the Pages settings.
