@@ -3,26 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f5f5ef" />
+    <meta name="theme-color" content="#f7f3ef" />
     <meta
       name="description"
-      content="Tran Minh Chi is a Management Information Systems student focused on business analysis, ERP, and financial systems."
+      content="Tran Minh Chi is a Management Information Systems student interested in business analysis, ERP, and financial systems."
     />
-    <title>Tran Minh Chi — Business, Systems & Technology</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>Tran Minh Chi — Business Analyst Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="Tran Minh Chi, home">MC<span>.</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-        <span class="menu-toggle-label">Menu</span>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        <span>Menu</span>
         <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
@@ -35,192 +36,196 @@
 
     <main id="main">
       <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> MIS student <i>·</i> Hanoi, Vietnam</p>
-          <h1 id="hero-title">Business<br />meets <span>technology.</span></h1>
+        <div class="hero-copy" data-reveal="left">
+          <p class="eyebrow"><span class="status-dot"></span> MIS student · Hanoi, Vietnam</p>
+          <h1 id="hero-title">Business analysis<br />meets <em>technology.</em></h1>
           <p class="hero-name">I’m Tran Minh Chi <span>— aspiring Business Analyst</span></p>
-          <p class="hero-intro">I connect business processes with practical technology. My focus is ERP and financial systems, with hands-on experience building an accounts payable management application.</p>
+          <p class="hero-intro">
+            I’m interested in how finance processes work and how clear requirements can help teams
+            use systems well. My portfolio includes an accounts-payable course project and an
+            independent analysis case study using fictional sample data.
+          </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#project">See my project <span aria-hidden="true">↘</span></a>
-            <a class="text-link" href="mailto:minhchitran1309@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="#project">View my project <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="mailto:minhchitran1309@gmail.com">
+              Get in touch <span aria-hidden="true">↗</span>
+            </a>
           </div>
-          <p class="hero-focus">Business analysis <span>·</span> ERP <span>·</span> Financial systems</p>
         </div>
 
-        <div class="hero-art" role="img" aria-label="Illustration of invoice tracking, accounts payable, and database operations">
-          <div class="art-grid" aria-hidden="true"></div>
-          <div class="art-orbit orbit-one" aria-hidden="true"></div>
-          <div class="art-orbit orbit-two" aria-hidden="true"></div>
-          <div class="art-node node-one" aria-hidden="true"></div>
-          <div class="art-node node-two" aria-hidden="true"></div>
-          <div class="art-label label-top">BUSINESS PROCESS <span>01 — 03</span></div>
-          <div class="system-card">
-            <div class="system-card-top"><span class="system-mark">AP</span><span>FINANCIAL SYSTEMS</span><span class="system-menu">•••</span></div>
-            <div class="system-card-title">Accounts payable</div>
-            <div class="system-card-subtitle">From invoice to record</div>
-            <div class="flow-list">
-              <div class="flow-step"><span class="flow-icon">01</span><span>Invoice tracking</span><i>↗</i></div>
-              <div class="flow-step"><span class="flow-icon">02</span><span>Accounts payable</span><i>↗</i></div>
-              <div class="flow-step"><span class="flow-icon">03</span><span>Database operations</span><i>↗</i></div>
-            </div>
-            <div class="system-card-foot"><span class="pulse-dot"></span> SYSTEMS THINKING IN PRACTICE</div>
+        <figure class="hero-portrait" data-reveal="right">
+          <div class="portrait-frame">
+            <img
+              src="assets/avatar.jpeg"
+              alt="Portrait of Tran Minh Chi"
+              width="960"
+              height="1440"
+              fetchpriority="high"
+              decoding="async"
+            />
           </div>
-          <div class="art-note"><span>BUSINESS</span><b>+</b><span>TECHNOLOGY</span></div>
-          <span class="art-caption">PROCESS · DATA · PEOPLE</span>
+          <figcaption class="portrait-caption">
+            <span class="caption-script">Nice to meet you</span>
+            <span class="caption-name">Tran Minh Chi</span>
+            <span class="caption-location">HANOI, VIETNAM <i>✳</i></span>
+          </figcaption>
+          <span class="portrait-stamp" aria-hidden="true">BA<br />· ERP</span>
+        </figure>
+      </section>
+
+      <section class="proof section-wrap" aria-label="Academic and language highlights" data-reveal>
+        <div class="proof-item">
+          <span class="proof-number">3.65 <small>/ 4.00</small></span>
+          <span class="proof-label">GPA · Academy of Finance</span>
         </div>
-        <a class="scroll-note" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
+        <div class="proof-item">
+          <span class="proof-number">940 <small>/ 990</small></span>
+          <span class="proof-label">TOEIC Listening & Reading</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">HSK 4</span>
+          <span class="proof-label">Chinese proficiency</span>
+        </div>
       </section>
 
-      <section class="proof section-wrap reveal" aria-label="Academic and language highlights">
-        <div class="proof-item"><span class="proof-number">3.65<span>/4.00</span></span><span class="proof-label">GPA · Academy of Finance</span></div>
-        <div class="proof-item"><span class="proof-number">940<span>/990</span></span><span class="proof-label">TOEIC Listening & Reading</span></div>
-        <div class="proof-item"><span class="proof-number">HSK 4</span><span class="proof-label">Intermediate Chinese</span></div>
-        <p class="proof-note">A business foundation<br />with a systems mindset.</p>
-      </section>
-
-      <section class="about section-wrap section-block" id="about" aria-labelledby="about-title">
-        <div class="section-heading reveal">
+      <section class="section-wrap section-block about" id="about" aria-labelledby="about-title" data-reveal>
+        <div class="section-heading">
           <p class="eyebrow">01 / About</p>
           <h2 id="about-title">Curious about how<br />business <em>works.</em></h2>
         </div>
-        <div class="about-content reveal">
-          <p class="about-lead">I’m a Management Information Systems student at the Academy of Finance, graduating in 2027.</p>
-          <p class="body-copy">I enjoy looking at a process from both sides: what a business needs and how a system can support it. Coursework in systems analysis, financial information systems, databases, and accounting gives me the context to build useful, grounded solutions.</p>
-          <p class="body-copy">I’m developing toward business analysis and ERP, bringing together structured thinking, clear communication, and a practical understanding of software and data. I also use AI tools to support research, learning, and problem-solving.</p>
-          <div class="fact-row">
-            <div><span class="fact-label">Based in</span><span class="fact-value">Hanoi, Vietnam</span></div>
-            <div><span class="fact-label">Studying</span><span class="fact-value">Management Information Systems</span></div>
-            <div><span class="fact-label">Languages</span><span class="fact-value">Vietnamese · English · Chinese</span></div>
-          </div>
+        <div class="about-content">
+          <p class="about-lead">
+            I’m studying Management Information Systems at the Academy of Finance and expect to
+            graduate in 2027.
+          </p>
+          <p class="body-copy">
+            I enjoy understanding a process from both sides: what a business needs and how a system
+            can support it. My coursework in systems analysis, financial information systems,
+            databases, and accounting helps me build practical, grounded solutions.
+          </p>
+          <dl class="fact-row">
+            <div><dt>Based in</dt><dd>Hanoi, Vietnam</dd></div>
+            <div><dt>Languages</dt><dd>Vietnamese · English · Chinese</dd></div>
+            <div><dt>Interested in</dt><dd>Business analysis · ERP</dd></div>
+          </dl>
         </div>
       </section>
 
-      <section class="focus section-wrap section-block" aria-labelledby="focus-title">
-        <div class="section-heading heading-row reveal">
-          <div>
-            <p class="eyebrow">02 / What I bring</p>
-            <h2 id="focus-title">Three sides of<br />the same <em>system.</em></h2>
-          </div>
-          <p class="heading-aside">I’m interested in the point where people, processes, and technology meet.</p>
+      <section class="section-wrap section-block project" id="project" aria-labelledby="project-title" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">02 / Selected projects</p>
+          <h2 id="project-title">Learning to improve<br />business <em>processes.</em></h2>
         </div>
-        <div class="focus-grid">
-          <article class="focus-card reveal">
-            <span class="focus-index">01</span>
-            <div class="focus-symbol symbol-process" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>Business & processes</h3>
-            <p>Business process fundamentals, systems analysis, financial accounting, and business information systems.</p>
-            <span class="focus-caption">UNDERSTAND THE NEED</span>
-          </article>
-          <article class="focus-card reveal">
-            <span class="focus-index">02</span>
-            <div class="focus-symbol symbol-data" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>ERP & financial systems</h3>
-            <p>Financial operations, accounts payable workflows, database management, and financial data analysis.</p>
-            <span class="focus-caption">STRUCTURE THE INFORMATION</span>
-          </article>
-          <article class="focus-card reveal">
-            <span class="focus-index">03</span>
-            <div class="focus-symbol symbol-code" aria-hidden="true"><i>&lt;</i><b>/</b><i>&gt;</i></div>
-            <h3>Application development</h3>
-            <p>C# and ASP.NET Core MVC, HTML/CSS, SQL Server, Entity Framework Core, Python, Java, and C/C++.</p>
-            <span class="focus-caption">BUILD A PRACTICAL SOLUTION</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="project section-wrap section-block" id="project" aria-labelledby="project-title">
-        <div class="section-heading heading-row reveal">
-          <div>
-            <p class="eyebrow">03 / Featured project</p>
-            <h2 id="project-title">A closer look<br />at the <em>work.</em></h2>
-          </div>
-          <p class="heading-aside">A web programming project that brought financial operations and application development together.</p>
-        </div>
-        <article class="project-feature reveal">
-          <div class="project-visual" aria-hidden="true">
-            <div class="project-visual-top"><span>PROJECT / 01</span><span>JAN — MAR 2026</span></div>
-            <div class="project-window">
-              <div class="window-sidebar"><span class="window-logo">AP<span>.</span></span><i class="side-icon active"></i><i class="side-icon"></i><i class="side-icon"></i><i class="side-icon"></i></div>
-              <div class="window-main">
-                <div class="window-heading"><span>Accounts payable</span><i>•••</i></div>
-                <div class="window-summary"><div><small>WORKFLOW</small><b>Invoice tracking</b></div><div class="summary-mark">↗</div></div>
-                <div class="window-row"><span class="row-dot"></span><span>Invoice records</span><b>Database</b></div>
-                <div class="window-row"><span class="row-dot row-dot-2"></span><span>Data operations</span><b>Entity Framework</b></div>
-                <div class="window-row"><span class="row-dot row-dot-3"></span><span>Application</span><b>ASP.NET Core</b></div>
-              </div>
+        <div class="project-list">
+          <article class="project-card project-card-featured">
+            <div class="project-meta">
+              <span>Self-initiated BA case study · Fictional sample</span>
+              <span>2026</span>
             </div>
-            <div class="project-visual-caption">FINANCIAL DATA, MADE USABLE <span>✳</span></div>
-          </div>
-          <div class="project-details">
-            <div class="project-meta"><span>WEB PROGRAMMING PROJECT</span><span>01 / 2026 — 03 / 2026</span></div>
-            <h3>Accounts Payable<br />Management System</h3>
-            <p class="project-role">Full-stack Developer</p>
-            <p class="project-description">A web application for managing accounts payable records and supporting accounting operations. I worked across the interface and data layer, connecting invoice tracking features to structured database operations.</p>
-            <ul class="project-points">
-              <li>Developed front-end interfaces and invoice-tracking features with HTML/CSS and ASP.NET Core MVC.</li>
-              <li>Designed database structures in SQL Server and connected data operations with Entity Framework Core.</li>
-              <li>Contributed to a functional application for managing accounts payable records.</li>
-            </ul>
-            <div class="tag-list" aria-label="Technologies used"><span>C#</span><span>ASP.NET Core MVC</span><span>SQL Server</span><span>Entity Framework Core</span><span>HTML / CSS</span><span>EPPlus</span></div>
-          </div>
-        </article>
+            <p class="project-role">Process analysis · Requirements · Invoice aging</p>
+            <h3 class="project-card-title">Making accounts payable easier to follow</h3>
+            <p class="project-description">
+              A small practice case study exploring how a finance team could track invoices from
+              receipt to payment. Includes an assumed process, business requirements, acceptance
+              criteria, and a transparent analysis of 12 fictional invoices.
+            </p>
+            <div class="project-outcomes" aria-label="Case study deliverables">
+              <span>Process map</span>
+              <span>5 business requirements</span>
+              <span>Sample aging analysis</span>
+            </div>
+            <a class="project-link" href="projects/ap-invoice-review/index.html">
+              Explore the case study <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project-card project-card-academic">
+            <div class="project-meta">
+              <span>Academic web programming project</span>
+              <span>Jan — Mar 2026</span>
+            </div>
+            <p class="project-role">Student project contributor</p>
+            <h3 class="project-card-title">Accounts Payable Management System</h3>
+            <p class="project-description">
+              A course project for managing accounts payable records. My contribution focused on
+              invoice-tracking screens and connecting them to the application’s record-management
+              flow. This was an academic project, not a production ERP implementation.
+            </p>
+            <p class="project-stack">
+              Project technologies: ASP.NET Core MVC, SQL Server, Entity Framework Core, HTML/CSS.
+              Listed as project context, not a claim of expertise in every tool.
+            </p>
+          </article>
+        </div>
       </section>
 
-      <section class="experience section-wrap section-block" id="experience" aria-labelledby="experience-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow">04 / The path so far</p>
+      <section class="section-wrap section-block experience" id="experience" aria-labelledby="experience-title" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">03 / Experience & education</p>
           <h2 id="experience-title">Learning by<br /><em>doing.</em></h2>
-          <div class="education-card">
-            <span class="education-label">EDUCATION · 09 / 2023 — 06 / 2027</span>
-            <h3>Academy of Finance</h3>
-            <p>Bachelor’s degree in Management Information Systems</p>
-            <div class="education-gpa"><span>GPA</span><b>3.65 <small>/ 4.00</small></b></div>
-          </div>
         </div>
-        <div class="experience-content reveal">
+        <div class="experience-content">
           <div class="timeline">
             <article class="timeline-item">
-              <div class="timeline-date">07 / 2025 — 07 / 2026</div>
-              <div class="timeline-details"><h3>English Teaching Assistant <span>· Ms. Lieu SPEC English</span></h3><p>Supported classroom activities, lesson preparation, and student learning. Shared learning updates with parents and helped students stay supported.</p><div class="tag-list"><span>Communication</span><span>Preparation</span><span>Learning support</span></div></div>
+              <p class="timeline-date">Jul 2025 — Jul 2026</p>
+              <div>
+                <h3>English Teaching Assistant <span>· Ms. Lieu SPEC English</span></h3>
+                <p>
+                  Supported classroom activities, lesson preparation, and student learning. Shared
+                  learning updates with parents and helped students stay supported.
+                </p>
+              </div>
             </article>
             <article class="timeline-item">
-              <div class="timeline-date">07 / 2024 — 09 / 2024</div>
-              <div class="timeline-details"><h3>Sales Representative <span>· Monkey Book</span></h3><p>Helped customers choose products, handled transactions and inquiries, and supported inventory management and product displays.</p><div class="tag-list"><span>Customer service</span><span>Operations</span><span>Inventory</span></div></div>
+              <p class="timeline-date">Jul 2024 — Sep 2024</p>
+              <div>
+                <h3>Sales Representative <span>· Monkey Book</span></h3>
+                <p>
+                  Helped customers choose products, handled transactions and inquiries, and
+                  supported inventory management and product displays.
+                </p>
+              </div>
             </article>
+          </div>
+
+          <div class="education-card">
+            <p class="eyebrow">Education · Sep 2023 — Jun 2027</p>
+            <h3>Academy of Finance</h3>
+            <p>Bachelor’s degree in Management Information Systems</p>
+            <p class="education-gpa">GPA <strong>3.65 / 4.00</strong></p>
           </div>
 
           <div class="credentials">
             <p class="eyebrow">Certifications & languages</p>
-            <div class="credential-row"><span class="credential-date">01 / 2025</span><span><b>TOEIC Listening & Reading</b><small>940 / 990 · IIG Vietnam</small></span></div>
-            <div class="credential-row"><span class="credential-date">04 / 2026</span><span><b>Advanced Informatics Certificate</b><small>Academy of Finance</small></span></div>
-            <div class="credential-row"><span class="credential-date">05 / 2026</span><span><b>English Proficiency Certificate</b><small>Academy of Finance · Graduation requirement</small></span></div>
-            <div class="language-pills"><span>Vietnamese</span><span>English <b>TOEIC 940</b></span><span>Chinese <b>HSK 4</b></span></div>
+            <ul>
+              <li><span>Jan 2025</span><strong>TOEIC Listening & Reading</strong><small>940 / 990 · IIG Vietnam</small></li>
+              <li><span>Apr 2026</span><strong>Advanced Informatics Certificate</strong><small>Academy of Finance</small></li>
+              <li><span>May 2026</span><strong>English Proficiency Certificate</strong><small>Academy of Finance · Graduation requirement</small></li>
+            </ul>
+            <p class="language-list">Vietnamese <span>·</span> English <span>·</span> Chinese (HSK 4)</p>
           </div>
         </div>
       </section>
 
-      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
-        <div class="contact-copy reveal">
-          <p class="eyebrow">05 / Get in touch</p>
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title" data-reveal>
+        <div>
+          <p class="eyebrow">04 / Get in touch</p>
           <h2 id="contact-title">Let’s make<br />systems <em>work.</em></h2>
-          <p>I’m always glad to connect with people working across business analysis, ERP, and financial technology.</p>
-          <a class="contact-email" href="mailto:minhchitran1309@gmail.com">minhchitran1309@gmail.com <span aria-hidden="true">↗</span></a>
+          <p>I’m glad to connect with people working across business analysis, ERP, and financial technology.</p>
         </div>
-        <div class="contact-side reveal">
-          <div class="contact-decoration" aria-hidden="true"><span>PEOPLE<br />PROCESS<br />TECHNOLOGY<span class="period">.</span></span><i>↗</i></div>
-          <div class="social-links">
-            <a href="https://github.com/minhchitran1309" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-            <a href="mailto:minhchitran1309@gmail.com">Email <span aria-hidden="true">↗</span></a>
-          </div>
+        <div class="contact-links">
+          <a href="mailto:minhchitran1309@gmail.com">minhchitran1309@gmail.com <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/minhchitran1309" target="_blank" rel="noopener noreferrer">
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer section-wrap">
       <a class="wordmark" href="#top" aria-label="Back to top">MC<span>.</span></a>
-      <span>Built with curiosity · <span id="year">2026</span></span>
+      <span>Tran Minh Chi · <span id="year">2026</span></span>
       <a href="#top">Back to top ↑</a>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
