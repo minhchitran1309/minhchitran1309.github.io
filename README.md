@@ -1,6 +1,6 @@
 # Tran Minh Chi — Portfolio
 
-A lightweight, responsive portfolio for a Management Information Systems student interested in business analysis, ERP, and financial systems. It uses plain HTML, CSS, and JavaScript and has no external runtime dependencies or web-font requests.
+A lightweight, responsive portfolio for a Management Information Systems student open to entry-level opportunities across business analysis, business operations, and information systems support. It uses plain HTML, CSS, and JavaScript and has no external runtime dependencies or web-font requests.
 
 The home page uses a locally stored portrait at `assets/avatar.jpeg`. Subtle scroll reveals respect the visitor's reduced-motion preference.
 
